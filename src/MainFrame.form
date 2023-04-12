@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainFrame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="2e8da">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="c15b9" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="46d65" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card1"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="71af" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card2"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="62a01" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card3"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="638d3" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <card name="Card4"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="62b40" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="66186" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="ec3e8" class="javax.swing.JButton" binding="button1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="be72c" class="javax.swing.JButton" binding="button2" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="d3a42" class="javax.swing.JButton" binding="button3" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+              <component id="a1da8" class="javax.swing.JButton" binding="button4" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="Button"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>
